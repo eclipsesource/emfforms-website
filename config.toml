@@ -1,19 +1,10 @@
-baseURL = "https://www.eclipse.org/ecp"
+baseURL = "https://www.eclipse.org/ecp/emfforms"
 DefaultContentLanguage = "en"
 title = "EMF Forms"
 theme = "syna"
 
 [markup.goldmark.renderer]
 unsafe = true
-
-# Google Analytics tracking
-googleAnalytics = "UA-31075157-1"
-[privacy]
-  [privacy.googleAnalytics]
-    anonymizeIP = true
-    disable = false
-    respectDoNotTrack = true
-    useSessionStorage = true
 
 [outputs]
   home = ["HTML", "JSON"]
@@ -113,6 +104,11 @@ lastmod = ["lastmod", ":git", "date"]
   url = "https://eclipse.org/ecp"
   name = "EMF Forms"
   weight = 10
+
+[[menu.footer]]
+  url = "https://emf.cloud"
+  name = "EMF Cloud"
+  weight = 5
 
 [[menu.copyright_footer]]
   url = "https://projects.eclipse.org/projects/modeling.emft.emf-client"

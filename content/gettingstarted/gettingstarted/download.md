@@ -1,5 +1,5 @@
 +++
-title = "1. Download"
+title = "Download"
 weight = 10
 
 [asset]
