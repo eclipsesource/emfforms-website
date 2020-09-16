@@ -1,4 +1,4 @@
 +++
-title = "EMF.cloud"
-description = "The Eclipse Modeling Framework for the cloud"
+title = "EMF Forms"
+description = "Are you still manually coding UIs?"
 +++

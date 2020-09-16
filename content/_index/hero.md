@@ -6,14 +6,14 @@ weight = 100
 background = "dark" # can influence the text color
 particles = true
 
-title = "EMF.cloud"
-subtitle = "EMF.cloud - evolve your modeling tools to the web!"
+title = "EMF Forms"
+subtitle = "EMF Forms / EMF Client Platform"
 
 [header]
 
 
 [asset]
-  image = "diagramanimated.gif"
+  image = "emfformsdemo.gif"
   width = "600px" # optional - will default to image width
 
 [[buttons]]
@@ -30,5 +30,12 @@ subtitle = "EMF.cloud - evolve your modeling tools to the web!"
   text = "Support"
   url = "/support"
   color = "primary"
+
+[[buttons]]
+  text = "Getting started"
+  url = "https://eclipsesource.com/blogs/tutorials/getting-started-with-EMF-Forms/"
+  color = "primary"
+
+  
 
 +++
