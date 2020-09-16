@@ -1,13 +1,13 @@
-baseURL = "https://www.eclipse.org/emfcloud"
+baseURL = "https://www.eclipse.org/ecp"
 DefaultContentLanguage = "en"
-title = "EMF.cloud"
+title = "EMF Forms"
 theme = "syna"
 
 [markup.goldmark.renderer]
 unsafe = true
 
 # Google Analytics tracking
-googleAnalytics = "UA-155083212-1"
+googleAnalytics = "UA-31075157-1"
 [privacy]
   [privacy.googleAnalytics]
     anonymizeIP = true
@@ -24,7 +24,7 @@ lastmod = ["lastmod", ":git", "date"]
 
 [params]
   name = "Eclipse Foundation"
-  description = "EMF.cloud"
+  description = "EMF Forms"
 
   [params.style]
     #background = "secondary"
@@ -52,14 +52,14 @@ lastmod = ["lastmod", ":git", "date"]
     pro = false
 
   [params.colors]
-    primary = "#00838F"
+    primary = "#1190ba"
     secondary = "#868e96"
     success = "#008f54"
     info = "#00c9dc"
     warning = "#fdf314"
     danger = "#dc1200"
     light = "#f8f9fa"
-    dark = "#073763ff"
+    dark = "#025973"
 
 # main/prepend/postpend menus are displayed in nav fragment.
 # Keep an eye out for updates. These will be moved out to make navbar more
@@ -68,6 +68,11 @@ lastmod = ["lastmod", ":git", "date"]
   url = ""
   name = "Home"
   weight = 10
+
+[[menu.main]]
+  url = "gettingstarted"
+  name = "Getting started"
+  weight = 15
 
 [[menu.main]]
   url = "support"
@@ -80,13 +85,23 @@ lastmod = ["lastmod", ":git", "date"]
   weight = 30
 
 [[menu.main]]
+  url = "downloads"
+  name = "Downloads"
+  weight = 40
+
+[[menu.main]]
+  url = "gettinginvolved"
+  name = "Getting Involved"
+  weight = 50
+
+[[menu.main]]
   url = "contact"
   name = "Contact"
   weight = 60
 
 [[menu.main]]
-  url = "https://github.com/eclipse-emfcloud/emfcloud"
-  name = "GitHub"
+  url = "https://git.eclipse.org/r/plugins/gitiles/emfclient/org.eclipse.emf.ecp.core"
+  name = "Git"
   weight = 60
 
 [[menu.footer]]
@@ -95,22 +110,12 @@ lastmod = ["lastmod", ":git", "date"]
   weight = 15
 
 [[menu.footer]]
-  url = "https://eclipse.org/glsp"
-  name = "Eclipse GLSP"
+  url = "https://eclipse.org/ecp"
+  name = "EMF Forms"
   weight = 10
 
-[[menu.footer]]
-  url = "https://eclipsesource.com/technology/eclipse-theia"
-  name = "Eclipse Theia IDE"
-  weight = 30
-
-[[menu.footer]]
-  url = "https://eclipse.org/che"
-  name = "Eclipse Che"
-  weight = 50
-
 [[menu.copyright_footer]]
-  url = "https://projects.eclipse.org/projects/ecd.emfcloud"
+  url = "https://projects.eclipse.org/projects/modeling.emft.emf-client"
   name = "About"
   weight = 5
 
@@ -139,16 +144,16 @@ lastmod = ["lastmod", ":git", "date"]
   weight = 20
   name = "twitter"
   pre = "fab fa-twitter"
-  url = "https://twitter.com/emfcloud"
+  url = "https://twitter.com/emfforms"
 
   [[menu.footer_social]]
   weight = 30
-  name = "github"
+  name = "Git"
   pre = "fab fa-github"
-  url = "https://github.com/eclipsesource/emfcloud"
+  url = "https://git.eclipse.org/r/plugins/gitiles/emfclient/org.eclipse.emf.ecp.core"
 
 [[menu.footer_social]]
   weight = 30
-  name = "spectrum"
+  name = "forum"
   pre = "far fa-comments"
-  url = "https://spectrum.chat/emfcloud"
+  url = "http://www.eclipse.org/forums/index.php/f/19/"
