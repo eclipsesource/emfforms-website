@@ -1,5 +1,5 @@
 +++
-title = "2. Quick read"
+title = "Quick read"
 weight = 20
 
 [asset]

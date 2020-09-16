@@ -49,7 +49,7 @@ Please attach your patch to the bug report in question or create a new report us
 
 **Contribute documentation**
 
-If you found something that is not documented yet, please share your knowledge with other users. Please [contact us](http://eclipse.org/emfclient/communication.html) to find the appropriate place to add your documentation.
+If you found something that is not documented yet, please share your knowledge with other users. Please [contact us]({{<relref "/contact">}}) to find the appropriate place to add your documentation.
 
 **Bug report quality policy**
 
