@@ -121,7 +121,7 @@ Using Oomph we want to ease the setup pain for new contributors and committers o
 
 #### Profiling and Performance Debugging
 
-*   YourKit is kindly supporting the EMF Forms open source project with its full-featured [YourKit Java Profiler](http://www.yourkit.com/java/profiler/index.jsp), which helped us to greatly improve EMFForms.
+*   YourKit is kindly supporting the EMF Forms open source project with its full-featured [YourKit Java Profiler](https://www.yourkit.com/java/profiler), which helped us to greatly improve EMFForms.
 
 #### Framework Developer Guidelines
 
