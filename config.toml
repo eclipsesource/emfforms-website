@@ -106,7 +106,7 @@ lastmod = ["lastmod", ":git", "date"]
   weight = 10
 
 [[menu.footer]]
-  url = "https://emf.cloud"
+  url = "http://emf.cloud"
   name = "EMF Cloud"
   weight = 5
 
