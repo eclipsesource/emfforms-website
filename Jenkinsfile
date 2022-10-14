@@ -54,9 +54,9 @@ spec:
     stage('Checkout www repo') {
       steps {
         dir('www') {
-            sshagent(['git.eclipse.org-bot-ssh']) {
+            sshagent(['github-bot-ssh']) {
                 sh '''
-                    git clone ssh://genie.${PROJECT_NAME}@git.eclipse.org:29418/www.eclipse.org/${PROJECT_NAME}.git .
+                    git clone ssh://git@github.com/eclipse-ecp/ecp-website.git .
                     git checkout ${BRANCH_NAME}
                 '''
             }
@@ -97,7 +97,7 @@ spec:
       steps {
         sh 'rm -rf www${PROJECT_SUB}/* && cp -Rvf hugo/public/* www${PROJECT_SUB}/'
         dir('www') {
-            sshagent(['git.eclipse.org-bot-ssh']) {
+            sshagent(['github-bot-ssh']) {
                 sh '''
                 git add -A
                 if ! git diff --cached --exit-code; then
