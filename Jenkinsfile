@@ -51,18 +51,18 @@ spec:
         }
       }
     }
-    stage('Checkout www repo') {
-      steps {
-        dir('www') {
-            sshagent(['github-bot-ssh']) {
-                sh '''
-                    git clone ssh://git@github.com/eclipse-ecp/ecp-website.git .
-                    git checkout ${BRANCH_NAME}
-                '''
-            }
-        }
-      }
-    }
+    // stage('Checkout www repo') {
+    //   steps {
+    //     dir('www') {
+    //         sshagent(['github-bot-ssh']) {
+    //             sh '''
+    //                 git clone ssh://git@github.com/eclipse-ecp/ecp-website.git .
+    //                 git checkout ${BRANCH_NAME}
+    //             '''
+    //         }
+    //     }
+    //   }
+    // }
     stage('Build website (master) with Hugo') {
       when {
         branch 'master'
