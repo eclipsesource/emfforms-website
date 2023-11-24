@@ -13,4 +13,4 @@ menu_title = "Related Projects"
 
 #### EMF Forms / EMF Client Platform
 
-EMF Forms / EMF Client Platform is a project hosted at the Eclipse Foundation, lead by [Eugen Neufeld](https://projects.eclipse.org/projects/modeling.emft.emf-client/who), [Johannes Faltermeier](https://projects.eclipse.org/projects/modeling.emft.emf-client/who), [Jonas Helming](https://projects.eclipse.org/projects/modeling.emft.emf-client/who) and [Maximilian Koegel](https://projects.eclipse.org/projects/modeling.emft.emf-client/who).
+EMF Forms / EMF Client Platform is a project hosted at the Eclipse Foundation, lead by [Eugen Neufeld](https://projects.eclipse.org/projects/modeling.ecp/who), [Johannes Faltermeier](https://projects.eclipse.org/projects/modeling.ecp/who), [Jonas Helming](https://projects.eclipse.org/projects/modeling.ecp/who) and [Maximilian Koegel](https://projects.eclipse.org/projects/modeling.ecp/who).
