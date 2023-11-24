@@ -111,7 +111,7 @@ lastmod = ["lastmod", ":git", "date"]
   weight = 5
 
 [[menu.copyright_footer]]
-  url = "https://projects.eclipse.org/projects/modeling.emft.emf-client"
+  url = "https://projects.eclipse.org/projects/modeling.ecp"
   name = "About"
   weight = 5
 
