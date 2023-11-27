@@ -1,4 +1,4 @@
-baseURL = "https://www.eclipse.org/ecp/emfforms"
+baseURL = "https://www.eclipse.dev/ecp/emfforms"
 DefaultContentLanguage = "en"
 title = "EMF Forms"
 theme = "syna"
@@ -101,7 +101,7 @@ lastmod = ["lastmod", ":git", "date"]
   weight = 15
 
 [[menu.footer]]
-  url = "https://eclipse.org/ecp"
+  url = "https://eclipse.dev/ecp"
   name = "EMF Forms"
   weight = 10
 
