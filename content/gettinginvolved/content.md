@@ -9,7 +9,7 @@ Everyone is invited to get involved with the EMF Forms project. Before you plan 
 
 **Writing bug reports**
 
-Please provide a short and concise explanation of the problem and a snippet to reproduce the issue, ideally a JUnit test case that outlines the expected behavior. You are also invited to enter feature requests. Please use [Bugzilla](https://bugs.eclipse.org/bugs/enter_bug.cgi?product=ecp) to report bugs and feature requests.
+Please provide a short and concise explanation of the problem and a snippet to reproduce the issue, ideally a JUnit test case that outlines the expected behavior. You are also invited to enter feature requests. Please use [GitHub Issues](https://github.com/eclipse-ecp/org.eclipse.emf.ecp.core/issues) to report bugs and feature requests.
 
 **Commit Message Guidelines**
 
@@ -18,7 +18,6 @@ We have the following commit message template:
     Bug $BugID - $BugTitle | TCI - $FixTitle
 
     $CommitDescription
-    Change-Id: $GeneratedGerritChangeID
     Signed-off-by: $SignOffNameAndEmail
     
 
@@ -39,13 +38,13 @@ We have the following commit message template:
 * Renaming local vars, e.g. because of typos
 * Externalizing strings
 
-**Use Gerrit to contribute to ECP**
+**Open a GitHub PR to contribute to ECP**
 
-We use [Gerrit](http://wiki.eclipse.org/Gerrit) code review so you can easily contribute to ECP and get a review for your changes. Please make sure that all your commits refer to a [Bugzilla](https://bugs.eclipse.org/bugs/enter_bug.cgi?product=ecp) Bug.
+We use [GitHub](https://github.com/eclipse-ecp/org.eclipse.emf.ecp.core/pulls) so you can easily contribute to ECP and get a review for your changes. Please make sure that all your commits refer to a [GitHub Issues](https://github.com/eclipse-ecp/org.eclipse.emf.ecp.core/issues).
 
 **Providing a patch to fix a bug or add a feature**
 
-Please attach your patch to the bug report in question or create a new report using [Bugzilla](https://bugs.eclipse.org/bugs/enter_bug.cgi?product=ecp) .
+Please attach your patch to the bug report in question or create a new report using [GitHub Issues](https://github.com/eclipse-ecp/org.eclipse.emf.ecp.core/issues) .
 
 **Contribute documentation**
 
@@ -98,7 +97,7 @@ Using Oomph we want to ease the setup pain for new contributors and committers o
   * Drag and Drop / add ("+" in the upper right corner) this profile [EclipseSource Profile](https://raw.githubusercontent.com/eclipsesource/oomph/master/EclipseSource.setup)
 ![](../images/image_profile.png)
   * Select the 'EclipseSource IDE' entry and press next
-  * Drag and Drop / add ("+" in the upper right corner) this setup file: [EMFForms.setup](http://git.eclipse.org/c/emfclient/org.eclipse.emf.ecp.core.git/plain/releng/org.eclipse.emf.ecp.releng/EMFForms.setup?h=develop) into the top list. You should now see a new Entry at the top:  
+  * Drag and Drop / add ("+" in the upper right corner) this setup file: [EMFForms.setup](https://raw.githubusercontent.com/eclipse-ecp/org.eclipse.emf.ecp.core/master/releng/org.eclipse.emf.ecp.releng/EMFForms.setup) into the top list. You should now see a new Entry at the top:  
 ![](../images/image_emfforms.png)  
   * Select the EMFForms entry and **double click** it, it should be **BOLD** now:  
 ![](../images/image_emfforms_selected.png)

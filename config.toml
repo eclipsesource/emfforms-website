@@ -91,7 +91,7 @@ lastmod = ["lastmod", ":git", "date"]
   weight = 60
 
 [[menu.main]]
-  url = "https://git.eclipse.org/r/plugins/gitiles/emfclient/org.eclipse.emf.ecp.core"
+  url = "https://github.com/eclipse-ecp/org.eclipse.emf.ecp.core"
   name = "Git"
   weight = 60
 
@@ -146,7 +146,7 @@ lastmod = ["lastmod", ":git", "date"]
   weight = 30
   name = "Git"
   pre = "fab fa-github"
-  url = "https://git.eclipse.org/r/plugins/gitiles/emfclient/org.eclipse.emf.ecp.core"
+  url = "https://github.com/eclipse-ecp/org.eclipse.emf.ecp.core"
 
 [[menu.footer_social]]
   weight = 30

@@ -8,6 +8,6 @@ weight = 10
 +++
 
 [Public channel](http://www.eclipse.org/forums/index.php/f/19/)\
-[File a Bug](https://bugs.eclipse.org/bugs/enter_bug.cgi?product=ecp)\
+[File a Bug](https://github.com/eclipse-ecp/org.eclipse.emf.ecp.core/issues)\
 Basic topics only\
 Longer response time
